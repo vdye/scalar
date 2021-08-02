@@ -202,8 +202,8 @@ namespace Scalar.FunctionalTests.Tests.GitCommands
             this.ControlGitRepo = ControlGitRepo.Create(commitish);
             this.ControlGitRepo.Initialize();
 
-            TestContext.Out.WriteLine($"Created enlistment at {this.Enlistment.EnlistmentRoot}");
-            TestContext.Out.WriteLine($"Created control repo at {this.ControlGitRepo.RootPath}");
+            //TestContext.Out.WriteLine($"Created enlistment at {this.Enlistment.EnlistmentRoot}");
+            //TestContext.Out.WriteLine($"Created control repo at {this.ControlGitRepo.RootPath}");
 
             if (this.validateWorkingTree == Settings.ValidateWorkingTreeMode.SparseMode)
             {
